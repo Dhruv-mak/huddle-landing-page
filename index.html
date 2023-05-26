@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body
+  class="bg-[url('./images/bg-mobile.svg')] md:bg-[url('./images/bg-desktop.svg')] bg-violet p-8 font-open_sans md:h-screen md:px-20 md:py-12 bg-no-repeat bg-cover flex flex-col md:items-start items-center">
+  <header class="md:mb-14">
+    <img src="./images/logo.svg" alt="Huddle logo" class="h-9 mb-7 md:h-10">
+  </header>
+  <main class="space-y-3 md:flex md:gap-x-14 md:min-w-[935px] max-w-[385px] md:max-w-none">
+    <section class="md:w-1/2">
+      <img src="./images/illustration-mockups.svg" alt="" class="mb-7 md:h-full">
+    </section>
+
+    <div class="md:flex md:flex-col md:w-1/2 md:justify-between">
+      <section class="space-y-3 mb-5 md:px-10 md:space-y-7">
+        <h1 class="sr-only">Huddle landing page</h1>
+        <h2
+          class="text-center text-white text-xl font-bold font-poppins md:text-left md:text-[2.5rem] md:leading-relaxed">
+          Build The Community Your Fans Will Love</h2>
+        <p class="text-center text-gray-300 md:text-left">Huddle re-imagines the way we build communities. You have a
+          voice, but so
+          does
+          your audience.
+          Create connections with your users as you engage in genuine discussion.</p>
+        <button
+          class="mx-auto text-violet bg-white rounded-full px-14 py-2 shadow-md shadow-fuchsia-950 block md:mx-0">Register</button>
+      </section>
+      <section class="text-center md:text-right">
+        <i
+          class="fa-brands fa-facebook-f text-white border-solid border-[1px] rounded-full p-[0.30rem] h-7 w-7 text-center"></i>
+        <i
+          class="fa-brands fa-twitter text-white border-solid border-[1px] rounded-full p-[0.30rem] h-7 w-7 text-center"></i>
+        <i
+          class="fa-brands fa-instagram text-white border-solid border-[1px] rounded-full p-[0.30rem] h-7 w-7 text-center"></i>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Niklaus M.</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
